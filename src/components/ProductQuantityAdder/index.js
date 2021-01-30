@@ -6,6 +6,7 @@ import CartContext from 'context/CartContext';
 
 export function ProductQuantityAdder({ variantId, available }) {
   const [quantity, setQuantity] = React.useState(1);
+  //want to consume the card context and destructure UpdateLineItem
   const { updateLineItem } = React.useContext(CartContext);
 
   const handleQuantityChange = e => {
