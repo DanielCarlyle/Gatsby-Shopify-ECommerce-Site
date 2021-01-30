@@ -1,10 +1,11 @@
 import React from 'react';
-import { Layout } from 'components';
+import { Layout, CartContents, SEO } from 'components';
 
 export default function CartPage() {
   return (
     <Layout>
-      Cart Page
+      <SEO description="The MadHatter cart" title="Cart" />
+      <CartContents />
     </Layout>
   );
 }
