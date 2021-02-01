@@ -20,7 +20,7 @@ export function HomepageCollectionsGrid({ collections }) {
           )}`}
           title={saleCollection.title}
           description={saleCollection.description}
-          backgroundImage={saleCollection.image.localFile.childImageSharp.fluid}
+          backgroundImage={saleCollection.image?.localFile.childImageSharp.fluid}
         />
       )}
       <RemainingCollections>
@@ -31,7 +31,7 @@ export function HomepageCollectionsGrid({ collections }) {
             )}`}
             title={collection.title}
             description={collection.description}
-            backgroundImage={collection.image.localFile.childImageSharp.fluid}
+            backgroundImage={collection.image?.localFile.childImageSharp.fluid}
             key={collection.shopifyId}
           />
         ))}
