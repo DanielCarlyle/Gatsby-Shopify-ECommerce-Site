@@ -1,4 +1,5 @@
 # Gatsby Shopify starter
+## Site preview: https://gatsby-shopify-ecommerce-madhatter.netlify.app/
 
 **Getting started**
 
